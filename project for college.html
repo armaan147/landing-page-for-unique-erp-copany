@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+   
+   .br {
+            height: 50px;
+            width: 100%;
+            background-color: #2d3e50;
+            position: fixed;
+           
+   }
+   .brd {
+            border-bottom: 50px solid rgb(134, 188, 66);
+            border-left: 20px solid transparent;
+            width: 600px;
+            position: fixed;
+            top: 9px;
+            margin-left: 767px;
+        }
+
+        .logo{
+            background-color:white;
+            width: 100%;
+             height: 100px; 
+             position: fixed;
+             margin-top: 50px;
+        }
+
+        .edit{
+            position: absolute;
+            margin-top: 30px;
+            height: 50px;
+            width: 260px;
+            margin-left: 80px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+
+
+
+        }
+
+        .dcontent {
+            display: none;
+            position: absolute;
+            background-color:#364a4ee8;
+            width: 600px;
+            padding: 5px;
+            left: -370px;
+            z-index: 2;
+            height: 300px;
+        }
+
+        .dropdown:hover .dcontent {
+            display: block;
+        }
+
+        .box2 {
+
+height: 650px;
+width: 100%;
+position: absolute;
+background-color: rgb(154, 191, 98);
+margin-top: 605px;
+z-index: -2;
+        }
+        .box {
+            height: 410px;
+            width: 420px;
+            background-color: rgb(134, 188, 66);
+            position: absolute;
+            margin-left: 800px;
+            top: 770px;
+            border-radius: 10px;
+            text-align: center;
+            z-index: -2;
+        }
+        .lady {
+            position: absolute;
+            height: 410px;
+            width: 200px;
+            margin-left: 1133px;
+            top: 770px;
+            z-index: -2;
+        }
+        input {
+            height: 40px;
+            width: 325px;
+            margin: 5px;
+
+            border-radius: 5px;
+            border: 1px solid rgb(223, 219, 219);
+            position: relative;
+            top: 30px;
+
+        }
+        .font {
+            font-family: cursive;
+            font-size: 28px;
+            position: relative;
+            top: 20px;
+        }
+        .submit {
+            color: white;
+            background-color: #2d3e50;
+            border: 0px;
+            height: 45px;
+        }
+        .text {
+            position: absolute;
+            font-size: 45px;
+            font-family: Cooper;
+            top: 790px;
+            left: 100px;
+            text-shadow: 2px 2px 5px #ffffff;
+            z-index: -2;
+
+        }
+
+        .text1 {
+            position: absolute;
+            font-size: 25px;
+
+            top: 890px;
+            left: 100px;
+            text-shadow: 1px 1px 5px #ffffff;
+            z-index: -2;
+
+        }
+
+        .box3{
+            height: 760px;
+width: 100%;
+position: absolute;
+background-color: rgb(154, 191, 98);
+margin-top: 1805px;
+z-index: -2;
+        }
+        .lady2 {
+            position: absolute;
+            height: 410px;
+            width: 200px;
+            margin-left: 1133px;
+            top: 170px;
+            z-index: -2;
+        }
+        .box4 {
+            height: 410px;
+            width: 420px;
+            background-color: rgb(134, 188, 66);
+            position: absolute;
+            margin-left: 800px;
+            top: 170px;
+            border-radius: 10px;
+            text-align: center;
+            z-index: -2;
+        }
+        .text2 {
+            position: absolute;
+            font-size: 45px;
+            font-family: Cooper;
+            top: 200px;
+            left: 100px;
+            text-shadow: 2px 2px 5px #ffffff;
+            z-index: -2;
+
+        }
+
+        .text3 {
+            position: absolute;
+            font-size: 25px;
+
+            top: 300px;
+            left: 100px;
+            text-shadow: 1px 1px 5px #ffffff;
+            z-index: -2;
+
+        }
+.registrationbox{
+margin-top: 2500px;
+}
+.registrationimg{
+    width: 100%;
+}
+
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".nav" data-bs-offset="50">
+    <div class="br">
+       
+</div>
+
+
+<div class="logo">
+   <img src="image1.png" class="edit"> 
+   <ul class="nav" >
+    <li style= "margin-top: 30px;margin-left: 630px;" class="nav-item"><a style="color: black;" class="nav-link" href="#">HOME</a></li>
+    <li style= "margin-top: 30px;" class="nav-item"><a style="color: black;" class="nav-link" href="#d1">ABOUT US</a></li>
+
+    <li style= "margin-top: 30px;" class="nav-item dropdown"><a style="color: black;" class="nav-link" href="#">COURSES</a>
+     
+        <div class="dcontent" style="width: 1000px; margin-left: -100px; height: 200px;">
+            <div class="row">
+                <div class="col"><a style="color: white;" href="#A">SAP TRAINING</a>
+                </div>
+                <div class="col"><p style="color: white;">ANDROID (MOBILE APPICATION)</p></div>
+                <div class="col"><p style="color: white;">Digital Marketing</p></div>
+                <div class="col"><p style="color: white;">Cloud Computing</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><a style="color: white;" href="#A">JAVA TRAINING</a></div>
+                <div class="col"><p style="color: white;">.NET Training</p></div>
+                <div class="col"><p style="color: white;">PHP Training</p></div>
+                <div class="col"><p style="color: white;">C & C++</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><a style="color: white;" href="#A">WEB DESIGNING</a></div>
+                <div class="col"><p style="color: white;">Python</p></div>
+                <div class="col"><p style="color: white;">Linux</p></div>
+                <div class="col"><p style="color: white;">"A" LEVEL</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p style="color: white;">ORACLE TRAINING (SQL/MySQL)</p>
+                </div>
+                <div class="col"><a style="color: white;" href="#A">WEB DEVELOPMENT</a>
+                </div>
+                <div class="col"><p style="color: white;">"O" LEVEL</p></div>
+                <div class="col"><p style="color: white;">NETWORKING</p>
+                </div>
+            </div>
+           </div>
+    </li>
+
+    <li style= "margin-top: 30px;" class="nav-item"><a style="color: black;" class="nav-link" href="#d2">PLACEMENT</a></li>
+    <li style= "margin-top: 30px;" class="nav-item"><a style="color: black;" class="nav-link" href="#R">REGISTRATION</a></li>
+    <li style= "margin-top: 30px;" class="nav-item"><a style="color: black;" class="nav-link" href="#C">CONTACT US</a></li>
+   </ul>
+
+</div>
+
+<div class="brd">
+    <img src="logo1.jpg" style="position: absolute; height: 35px;
+    width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 20px;">
+    <img src="logo2.png" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 80px;">
+    <img src="logo3.jpg" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 140px;">
+    <img src="logo4.jpg" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 200px;">
+    <img src="logo5.jpg" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 260px;">
+
+
+<!-- jquery
+<button type="button" id="abc1" class="btn btn-primary" style="position: absolute;margin-left: 350px; margin-top: 5px;">
+    REGISTER NOW
+  </button>
+  
+  <script>
+    $(document).ready(function(){
+  $("#abc1").click(function(){
+  $("#d1").toggle();
+  });
+  });
+          </script> 
+          -->
+
+</div>
+
+
+
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="z-index: -2; position: absolute;margin-top: 160px;width: 100%;">
+        <div class="carousel-inner" style="height: 450px;">
+            <div class="carousel-item active">
+                <img src="banner1.jpg" style="width: 100%;height: 450px;" >
+            </div>
+            <div class="carousel-item">
+                <img src="banner2.jpg"  style="width: 100%;height: 450px;" >
+            </div>
+            <div class="carousel-item">
+                <img src="banner3.jpg"  style="width: 100%;height: 450px;">
+            </div>
+            <div class="carousel-item">
+                <img src="banner4.jpg"  style="width: 100%;height: 450px;">
+            </div>
+            <div class="carousel-item">
+                <img src="banner5.jpg"  style="width: 100%;height: 450px;">
+            </div> 
+        </div>
+        <button style="background-color:white; width: 50px; height: 50%; margin-top: 120px; " class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button style="background-color: white; width: 50px; height: 50%; margin-top: 120px;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+       
+    </div>
+</div>
+
+
+<div class="container-fluid box2"  id="d1"></div>
+
+    <img src="" class="">
+    <span class="text">OFFERED COURSES</span>
+    <br>
+    <span class="text1">SAP Training Gives Your Career an Edge in the Business
+        <br>
+        Management of IT industries
+        <br>
+
+        <br>
+        Unique ERP, a Faridabad based IT software training
+        <br>
+        academy have charted out brilliant training programs for
+        <br>
+        students in domains of training.</span>
+    <div class="box">
+        <span class="font"> GET FREE DEMO CLASS</span>
+        <input type="text" placeholder="NAME">
+        <input type="email" placeholder="EMAIL">
+        <input type="number" placeholder="CONTACT">
+        <input type="text" placeholder="COURSE APPLIED FOR">
+        <input type="text" placeholder="MESSAGE">
+        <input class="submit" type="button" value="SUBMIT">
+    </div>
+    <img src="lady.png" class="lady">
+
+
+</div>
+
+<div id="A" class="container-fluid" style="background-color:white; margin-top: 1265px; position: absolute; height: 500px;width: 100%;z-index: -2;">
+    <h1 style="color: black; text-align: center;">OFFERED COURSES</h1>
+    <hr style=" border: 3px solid black; width: 300px; margin-left: 510px;" >
+<div class="row">
+<div class="col">
+    <div class="card" style="width: 300px;height: 400px;">
+        <img class="card-img-top" src="card1.PNG" alt="card image" style="width: 100%;height: 200px;">
+        <div class="card-body" >
+            <h4>SAP TRAINING</h4>
+            <span data-bs-toggle="collapse" data-bs-target="#demo" > LEARN MORE</span>
+            <div id="demo" class="collapse">
+    <p >SAP training imparted by well-trained faculty is 
+        sfocused on live projects to give a first-hand experience of working on global SAP-based projects.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 300px;height: 400px;">
+            <img class="card-img-top" src="card2.PNG" alt="card image" style="width: 100%;height: 200px;">
+            <div class="card-body" >
+                <h4>JAVA TRAINING</h4>
+                <span data-bs-toggle="collapse" data-bs-target="#demo3" >LEARN MORE</span>
+                <div id="demo3" class="collapse">
+        <p>Java is the general purpose language which is the base of almost all kinds of networked applications.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 300px;height: 400px;">
+                <img class="card-img-top" src="card3.PNG" alt="card image" style="width: 100%;height: 200px;">
+                <div class="card-body" >
+                    <h4>WEB DESIGNING</h4>
+                    <span data-bs-toggle="collapse" data-bs-target="#demo1" >LEARN MORE</span>
+                    <div id="demo1" class="collapse">
+            <p >Website designing has always enjoyed status as the initiation point of online business marketing.
+                 Well-trained web designers are in high demand.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 300px;height: 400px;">
+                    <img class="card-img-top" src="card4.PNG" alt="card image" style="width: 100%;height: 200px;">
+                    <div class="card-body" >
+                        <h4>WEB DEVELOPMENT</h4>
+                
+                        <span data-bs-toggle="collapse" data-bs-target="#demo2" > LEARN MORE</span>
+                        <div id="demo2" class="collapse">
+                <p >Web development go hand in hand.
+                     Knowledge in web designing is the first step towards web development.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+</div>
+
+</div>
+
+    
+<div class="container-fluid box3"  id="d2">
+
+    <span class="text2">PLACEMENT PARTNER</span>
+    <br>
+    <span class="text3">There are many variations of passages Unique ERP,
+        <br>
+        pioneers in IT training, has been established in 2013 to
+        <br>
+        provide a matchless range of high quality IT training for
+        <br>
+        individuals, students and organizations to achieve their
+        <br>
+        dream IT destinations.</span>
+    <div class="box4">
+        <span class="font"> GET FREE DEMO CLASS</span>
+        <input type="text" placeholder="NAME">
+        <input type="email" placeholder="EMAIL">
+        <input type="number" placeholder="CONTACT">
+        <input type="text" placeholder="COURSE APPLIED FOR">
+        <input type="text" placeholder="MESSAGE">
+        <input class="submit" type="button" value="SUBMIT">
+    </div>
+    <img src="lady.png" class="lady2">
+
+
+</div>
+
+<div class="registrationbox" id="R">
+    <img class="registrationimg" src="registration-banner.jpg" >
+<img style="width: 500px; height: 400px; margin-left: 800px; margin-top: 20px;" src="regis.jpg" >
+
+<div style=" background-color:transparent; width: 700px;height: 300px; padding: 10px; margin-top: -400px; margin-left: 50px;">
+    <h1>REGISTER WITH US</h1>
+    <div class="row"  >
+        <div class="col"><input style="z-index: -2; width: 300px;height: 50px;" type="text" placeholder="NAME"></div>
+        <div class="col"><input style="z-index: -2; width: 300px;height: 50px;"  type="email" placeholder="EMAIL"></div>
+    </div>
+    <div class="row">
+        <div class="col"><input style="z-index: -2; width: 300px;height: 50px;margin-top: 60px;"  type="number" placeholder="MOBILE NUMBER"></div>
+        <div class="col"><select  style=" margin-top: 90px; width: 310px;height: 50px; border-radius: 5px;" name="COURCE APPLIED FOR">
+            <option >JAVA</option>
+            <option >PYTHON</option>
+            <option >WEB DESIGNING</option>
+            <option >WEB DEVELOPMENT</option>
+            <option >C AND C++</option>
+            <option >NETWORKING</option>
+        </select>
+    </div>
+    </div>
+<div class="row"> 
+    <div class="col"><textarea style="margin-top: 40px; width: 670px;height: 50px;">
+        MESSAGE
+    </textarea></div>
+</div>
+</div>
+</div>
+
+<div id="C">
+    <img src="contact-banner.jpg" style="width: 100%;margin-top: 150px;">
+</div>
+<img src="Capture.PNG" style="margin-left: 80px;margin-top: 20px;">
+<div style=" background-color:transparent; width: 700px;height: 550px; padding: 10px;
+  margin-left: 600px;margin-top: -430px;">
+    <h1>SEND YOUR MESSAGE</h1>
+    <div class="row"  >
+        <div class="col"><input style="z-index: -2; width: 300px;height: 50px;" type="text" placeholder="NAME"></div>
+        <div class="col"><input style="z-index: -2; width: 300px;height: 50px;"  type="email" placeholder="EMAIL"></div>
+    </div>
+    <div class="row">
+        <div class="col"><input style="z-index: -2; width: 300px;height: 50px;margin-top: 60px;"  type="number" placeholder="MOBILE NUMBER"></div>
+        <div class="col"><select  style=" margin-top: 90px; width: 310px;height: 50px; border-radius: 5px;" name="COURCE APPLIED FOR">
+            <option >JAVA</option>
+            <option >PYTHON</option>
+            <option >WEB DESIGNING</option>
+            <option >WEB DEVELOPMENT</option>
+            <option >C AND C++</option>
+            <option >NETWORKING</option>
+        </select>
+    </div>
+    </div>
+<div class="row"> 
+    <div class="col"><textarea style="margin-top: 40px; width: 670px;height: 50px;">
+        MESSAGE
+    </textarea></div>
+    <button class="btn" style="background-color:rgb(134, 188, 66) ; width: 150px; margin-left: 10px; margin-top: 10px; border-radius: 1px;">SUBMIT</button>
+</div>
+</div>
+   
+
+
+</body>
+</html>
